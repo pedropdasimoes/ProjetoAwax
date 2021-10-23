@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, userscablee=0">
+    <title>Projeto Awax</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="assets/js/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/awax.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container divHeader">
+            <div class="logo">
+                <a href=""><img src="assets/image/icons/logo.png" alt="Logo"></a>
+            </div>            
+            <nav>
+                <div class="telefone">
+                    <a href=""><img src="assets/image/icons/cel.png" alt="Telefone"></a>
+                </div>
+                <div class="divHamburguer seta-baixo">
+                    <input type="checkbox" id="hamburguer" style="display: none;">
+                    <label for="hamburguer">
+                        <div class="blockHamb">
+                            <div class="hamburguer hamb1"></div>
+                            <div class="hamburguer hamb2"></div>
+                            <div class="hamburguer hamb3"></div>
+                        </div>
+                    </label>
+                </div>
+                <div class="nav activeNav">
+                    <ul class="navUl">
+                        <li class="liMenu"><a href="" class="aMenu">HOME</a></li>
+                        <li class="liMenu"><a href="" class="aMenu">ABOUT US</a></li>
+                        <li class="liMenu"><a href="" class="aMenu">SERVICES          </a></li>
+                        <li class="liMenu"><a href="" class="aMenu">OUR PROJECTS</a></li>
+                        <li class="liMenu"><a href="" class="aMenu">OUR TEAM</a></li>
+                        <li class="liMenu"><a href="" class="aMenu">HAPPY CLIENTS</a></li>
+                        <li class="liMenu"><a href="" class="aMenu">PRICE</a></li>
+                        <li class="liMenu"><a href="" class="aMenu">SOME FACTS</a></li>
+                        <li class="liMenu"><a href="" class="aMenu">CONTACT US</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" style="background-color:black;">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block img-fluid" style="filter: opacity(30%);" src="assets/image/complements/bg1.jpg">
+                        <div class="carousel-caption imagem">
+                            <h1 class="h1Img1">Design is about</h1>
+                            <h1 class="h1Img2">Comunication</h1>
+                            <h4 class="h4Img">Call us:+00 0 1234 5678</h4>
+                            <a href="" class="buttonImg">Get in touch!</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid" style="filter: opacity(30%);"  src="assets/image/complements/bg2.jpg">
+                        <div class="carousel-caption imagem">
+                            <h1 class="h1Img1">Design is about</h1>
+                            <h1 class="h1Img2">Comunication</h1>
+                            <h4 class="h4Img">Call us:+00 0 1234 5678</h4>
+                            <a href="" class="buttonImg">Get in touch!</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid" style="filter: opacity(30%);"  src="assets/image/complements/bg3.jpg">
+                        <div class="carousel-caption imagem">
+                            <h1 class="h1Img1">Design is about</h1>
+                            <h1 class="h1Img2">Comunication</h1>
+                            <h4 class="h4Img">Call us:+00 0 1234 5678</h4>
+                            <a href="" class="buttonImg">Get in touch!</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <section class="sectionUm">
+            <div class="container sectionAboutUs">                
+                <a class="aCel" href=""><img class="imgCel" src="assets/image/icons/cel2.png" alt="Telefone"></a>
+                <div class="titulosUm">
+                    <h1 class="h1Um">About us</h1>
+                    <h3 class="h3Um">who we are?</h3>
+                </div>
+                <div class="conteudoUm">
+                    <div class="esquerdaUm">
+                        <p class="pUm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis quibusdam nihil placeat fugit impedit, adipisci aspernatur officia voluptatem dolores dolor excepturi ipsum ratione culpa laudantium exercitationem ipsa, maiores, atque harum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id accusamus alias delectus repudiandae illum ipsam rerum nulla repellat porro nisi. Quas consequuntur necessitatibus perspiciatis et voluptate sed! Doloremque, mollitia facilis? Quaerat assumenda vero illo exercitationem tempora voluptatibus maxime quibusdam ipsa laborum nihil perferendis provident eum possimus aliquid, perspiciatis vel ipsum harum natus.</p>
+                        <a href="" class="buttonImg buttonLearn">Learn More</a>
+                    </div>
+                    <video class="video-fluid z-depth-1 videoUm" autoplay loop controls muted>
+                        <source src="https://mdbootstrap.com/img/video/Sail-Away.mp4" type="video/mp4" />
+                    </video>
+                </div>
+            </div>
+        </section>
+        <section class="sectionDois">
+            <div class="container sectionServices">
+                <div class="titulosDois">
+                    <h1 class="h1Dois">Services</h1>
+                    <h3 class="h3Dois">services that we provide</h3>
+                </div>
+                <div class="divIcones">
+                    <div class="hr"></div>
+                    <div class="icons">
+                        <img src="assets/image/icons/medalha.png" alt="medalha">
+                        <h1 class="h1Icon">High Quality Design</h1>
+                        <h3 class="h3Icon">Praesent metus urna, feugiata placerat elementum</h3>
+                    </div>
+                    <div class="hr"></div>
+                    <div class="icons">
+                        <img src="assets/image/icons/estrela.png" alt="medalha">
+                        <h1 class="h1Icon">Modern Design</h1>
+                        <h3 class="h3Icon">Praesent metus urna, feugiata placerat elementum</h3>
+                    </div>
+                    <div class="hr"></div>
+                    <div class="icons">
+                        <img src="assets/image/icons/relogio.png" alt="medalha">
+                        <h1 class="h1Icon">Regular Updates</h1>
+                        <h3 class="h3Icon">Praesent metus urna, feugiat</h3>
+                    </div>
+                    <div class="hr"></div>
+                    <div class="icons">
+                        <img src="assets/image/icons/balao.png" alt="medalha">
+                        <h1 class="h1Icon">Fast and free support</h1>
+                        <h3 class="h3Icon">Praesent metus urna, feugiata placerat elementum</h3>
+                    </div>
+                    <div class="hr"></div>
+                </div>
+            </div>
+        </section>
+        <section class="sectionTres">
+            <div class="container sectionOurProjects">
+                <div class="titulosBranco">
+                    <h1 class="h1Branco">Ours Projects</h1>
+                    <h3 class="h3Branco">what we create</h3>
+                </div>
+                <div class="buttonsOurProjects">
+                    <a href="" class="buttonOur primeiroButton">All</a>
+                    <a href="" class="buttonOur">Photos</a>
+                    <a href="" class="buttonOur buttonBranding">Branding</a>
+                    <a href="" class="buttonOur buttonAdverts">Adverts</a>
+                    <a href="" class="buttonOur">Development</a>
+                    <a href="" class="buttonOur ultimoButton">Misc</a>
+                </div>
+                <div class="divGaleria">
+                    <div class="galeria galeria1">
+                        <div class="divImg img1">
+                            <div class="textImg">
+                                <h1>Lorem Ipsun</h1>
+                                <p>Ut voluptatum totam ullam deserunt architecto vero natus sequi?</p>
+                            </div>
+                            
+                        </div>
+                        <div class="divImg img2">
+                            <div class="textImg">
+                                <h1>Lorem Ipsun</h1>
+                                <p>Ut voluptatum totam ullam deserunt architecto vero natus sequi?</p>
+                            </div>
+                            
+                        </div>
+                        <div class="divImg img3">
+                            <div class="textImg">
+                                <h1>Lorem Ipsun</h1>
+                                <p>Ut voluptatum totam ullam deserunt architecto vero natus sequi?</p>
+                            </div>
+                            
+                        </div>
+                        <div class="divImg img4">
+                            <div class="textImg">
+                                <h1>Lorem Ipsun</h1>
+                                <p>Ut voluptatum totam ullam deserunt architecto vero natus sequi?</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="galeria galeria2">
+                        <div class="divImg img5">
+                            <div class="textImg">
+                                <h1>Lorem Ipsun</h1>
+                                <p>Ut voluptatum totam ullam deserunt architecto vero natus sequi?</p>
+                            </div>
+                            
+                        </div>
+                        <div class="divImg img6">
+                            <div class="textImg">
+                                <h1>Lorem Ipsun</h1>
+                                <p>Ut voluptatum totam ullam deserunt architecto vero natus sequi?</p>
+                            </div>
+                            
+                        </div>
+                        <div class="divImg img7">
+                            <div class="textImg">
+                                <h1>Lorem Ipsun</h1>
+                                <p>Ut voluptatum totam ullam deserunt architecto vero natus sequi?</p>
+                            </div>
+                            
+                        </div>
+                        <div class="divImg img8">
+                            <div class="textImg">
+                                <h1>Lorem Ipsun</h1>
+                                <p>Ut voluptatum totam ullam deserunt architecto vero natus sequi?</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="galeria galeria3">                        
+                        <div class="divImg img9">
+                            <div class="textImg">
+                                <h1>Lorem Ipsun</h1>
+                                <p>Ut voluptatum totam ullam deserunt architecto vero natus sequi?</p>
+                            </div>
+                            
+                        </div>
+                        <div class="divImg img10">
+                            <div class="textImg">
+                                <h1>Lorem Ipsun</h1>
+                                <p>Ut voluptatum totam ullam deserunt architecto vero natus sequi?</p>
+                            </div>
+                            
+                        </div>
+                        <div class="divImg img11">
+                            <div class="textImg">
+                                <h1>Lorem Ipsun</h1>
+                                <p>Ut voluptatum totam ullam deserunt architecto vero natus sequi?</p>
+                            </div>
+                            
+                        </div>
+                        <div class="divImg img12">
+                            <div class="textImg">
+                                <h1>Lorem Ipsun</h1>
+                                <p>Ut voluptatum totam ullam deserunt architecto vero natus sequi?</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="buttonOurProjects">
+                    <a href="" class="buttonImg buttonLearn">More Projects</a>
+                </div>
+            </div>
+        </section>
+        <section class="sectionQuatro">
+            <div class="divBlurQuatro blur">
+                <div class="container sectionOurTeam">
+                    <div class="titulosQuatro">
+                        <h1 class="h1Quatro">Our Team</h1>
+                        <h3 class="h3Quatro">Our co-workers</h3>
+                    </div>
+                    <div class="conteudoQuatro">
+                        <div class="divConteudoQuatro conteudoQuatro1">
+                            <img class="imgPerfilIcon" src="assets/image/complements/mulher1.png" alt="">
+                            <h1 class="h1QuatroIcon">Jane Doe</h1>
+                            <h3 class="h3QuatroIcon">Master Mind</h3>
+                            <ol class="olIcon">
+                                <li class="liIcons"><a class="aIcon" href=""><img class="imgIcons" src="assets/image/icons/icon/twitter.png" alt=""></a></li>
+                                <li class="liIcons"><a class="aIcon" href=""><img class="imgIcons" src="assets/image/icons/icon/instagram.png" alt=""></a></li>
+                                <li class="liIcons"><a class="aIcon" href=""><img class="imgIcons" src="assets/image/icons/icon/linkedin.png" alt=""></a></li>
+                                <li class="liIcons"><a class="aIcon" href=""><img class="imgIcons" src="assets/image/icons/icon/facebook.png" alt=""></a></li>
+                                <li class="liIcons"><a class="aIcon" href=""><img class="imgIcons" src="assets/image/icons/icon/youtube.png" alt=""></a></li>
+                                <li class="liIcons"><a class="aIcon" href=""><img class="imgIcons" src="assets/image/icons/icon/google.png" alt=""></a></li>
+                                <li class="liIcons"><a class="aIcon" href=""><img class="imgIcons" src="assets/image/icons/icon/etc.png" alt=""></a></li>
+                            </ol>
+                        </div>
+                        <div class="divConteudoQuatro conteudoQuatro2">
+                            <img class="imgPerfilIcon" src="assets/image/complements/homem1.png" alt="">
+                            <h1 class="h1QuatroIcon">Mike Shilleer</h1>
+                            <h3 class="h3QuatroIcon">Creative Head</h3>
+                            <ol class="olIcon">
+                                <li class="liIcons"><a class="aIcon" href=""><img class="imgIcons" src="assets/image/icons/icon/twitter.png" alt=""></a></li>
+                                <li class="liIcons"><a class="aIcon" href=""><img class="imgIcons" src="assets/image/icons/icon/instagram.png" alt=""></a></li>
+                                <li class="liIcons"><a class="aIcon" href=""><img class="imgIcons" src="assets/image/icons/icon/linkedin.png" alt=""></a></li>
+                                <li class="liIcons"><a class="aIcon" href=""><img class="imgIcons" src="assets/image/icons/icon/facebook.png" alt=""></a></li>
+                                <li class="liIcons"><a class="aIcon" href=""><img class="imgIcons" src="assets/image/icons/icon/youtube.png" alt=""></a></li>
+                                <li class="liIcons"><a class="aIcon" href=""><img class="imgIcons" src="assets/image/icons/icon/google.png" alt=""></a></li>
+                                <li class="liIcons"><a class="aIcon" href=""><img class="imgIcons" src="assets/image/icons/icon/etc.png" alt=""></a></li>
+                            </ol>
+                        </div>
+                        <div class="divConteudoQuatro conteudoQuatro3">
+                            <img class="imgPerfilIcon" src="assets/image/complements/mulher2.png" alt="">
+                            <h1 class="h1QuatroIcon">Anna Johns </h1>
+                            <h3 class="h3QuatroIcon">Technical Lead</h3>
+                            <ol class="olIcon">
+                                <li class="liIcons"><a class="aIcon" href=""><img class="imgIcons" src="assets/image/icons/icon/twitter.png" alt=""></a></li>
+                                <li class="liIcons"><a class="aIcon" href=""><img class="imgIcons" src="assets/image/icons/icon/instagram.png" alt=""></a></li>
+                                <li class="liIcons"><a class="aIcon" href=""><img class="imgIcons" src="assets/image/icons/icon/linkedin.png" alt=""></a></li>
+                                <li class="liIcons"><a class="aIcon" href=""><img class="imgIcons" src="assets/image/icons/icon/facebook.png" alt=""></a></li>
+                                <li class="liIcons"><a class="aIcon" href=""><img class="imgIcons" src="assets/image/icons/icon/youtube.png" alt=""></a></li>
+                                <li class="liIcons"><a class="aIcon" href=""><img class="imgIcons" src="assets/image/icons/icon/google.png" alt=""></a></li>
+                                <li class="liIcons"><a class="aIcon" href=""><img class="imgIcons" src="assets/image/icons/icon/etc.png" alt=""></a></li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sectionCinco">
+            <div class="container sectionHappy">
+                <div class="titulosBranco">
+                    <h1 class="h1Branco">Happy Clients</h1>
+                    <h3 class="h3Branco">Client reviews</h3>
+                </div>
+                <div class="divConteudoCinco">
+                    <img class="imgPerfilIconNovo" src="assets/image/complements/homem2.png" alt="">
+                    <h1 class="h1Cinco">Jhon Doe</h1>
+                    <h3 class="h3Cinco">Head of PR Departament</h3>
+                    <img class="imgQuote" src="assets/image/icons/quote.png" alt="">
+                    <p class="pCinco">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate, similique harum in eaque doloribus quidem molestias nam animi necessitatibus, labore voluptas nesciunt? Qui autem dolores?</p>
+                </div>
+            </div>
+        </section>
+        <section class="sectionSeis">
+            <div class="container sectionPatrocinio">
+                <a class="patIcon1" href=""><img class="patIcon1" src="assets/image/icons/icon/emp1.png" alt=""></a>
+                <a class="patIcon2" href=""><img class="patIcon2" src="assets/image/icons/icon/emp2.png" alt=""></a>
+                <a class="patIcon3" href=""><img class="patIcon3" src="assets/image/icons/icon/emp3.png" alt=""></a>
+                <a class="patIcon4" href=""><img class="patIcon4" src="assets/image/icons/icon/emp4.png" alt=""></a>
+                <a class="patIcon5" href=""><img class="patIcon5" src="assets/image/icons/icon/emp5.png" alt=""></a>
+                <a class="patIcon6" href=""><img class="patIcon6" src="assets/image/icons/icon/emp6.png" alt=""></a>
+                <a class="patIcon7" href=""><img class="patIcon7" src="assets/image/icons/icon/emp7.png" alt=""></a>
+            </div>
+        </section>
+        <section class="sectionSete">
+            <div class="container sectionPrice">
+                <div class="titulosBranco">
+                    <h1 class="h1Branco">Price</h1>
+                    <h3 class="h3Branco">Pricing table</h3>
+                </div>
+                <div class="divPrecos">
+                    <div class="tabelaPreco">
+                        <h3>Express</h3>
+                        <h1>$ 9.99</h1>
+                        <h4>/ Month</h4>
+                        <h5>Tracking issues</h5>
+                        <div class="divHr"></div>
+                        <h5>Add bugs through email</h5>
+                        <div class="divHr"></div>
+                        <h5>Notifications</h5>
+                        <div class="divHr"></div>
+                        <h5>Time tracking</h5>
+                        <div class="divHr"></div>
+                        <h5>Custom views</h5>
+                        <div class="divHr"></div>
+                        <div class="buttonPrice">
+                            <a href="" class="buttonImgPrice buttonLearn buttonEscuro">Choose</a>
+                        </div>
+                    </div>
+                    <div class="tabelaPreco">
+                        <h3>Standart</h3>
+                        <h1>$ 14.99</h1>
+                        <h4>/ Month</h4>
+                        <h5>Tracking issues</h5>
+                        <div class="divHr"></div>
+                        <h5>Add bugs through email</h5>
+                        <div class="divHr"></div>
+                        <h5>Notifications</h5>
+                        <div class="divHr"></div>
+                        <h5>Time tracking</h5>
+                        <div class="divHr"></div>
+                        <h5>Custom views</h5>
+                        <div class="divHr"></div>
+                        <div class="buttonPrice">
+                            <a href="" class="buttonImgPrice buttonLearn buttonEscuro">Choose</a>
+                        </div>
+                    </div>
+                    <div class="tabelaPreco">
+                        <h3>Luxe</h3>
+                        <h1>$ 19.99</h1>
+                        <h4>/ Month</h4>
+                        <h5>Tracking issues</h5>
+                        <div class="divHr"></div>
+                        <h5>Add bugs through email</h5>
+                        <div class="divHr"></div>
+                        <h5>Notifications</h5>
+                        <div class="divHr"></div>
+                        <h5>Time tracking</h5>
+                        <div class="divHr"></div>
+                        <h5>Custom views</h5>
+                        <div class="divHr"></div>
+                        <div class="buttonPrice">
+                            <a href="" class="buttonImgPrice buttonLearn buttonEscuro">Choose</a>
+                        </div>
+                    </div>
+                    <div class="tabelaPreco">
+                        <h3>Premium</h3>
+                        <h1>$ 24.99</h1>
+                        <h4>/ Month</h4>
+                        <h5>Tracking issues</h5>
+                        <div class="divHr"></div>
+                        <h5>Add bugs through email</h5>
+                        <div class="divHr"></div>
+                        <h5>Notifications</h5>
+                        <div class="divHr"></div>
+                        <h5>Time tracking</h5>
+                        <div class="divHr"></div>
+                        <h5>Custom views</h5>
+                        <div class="divHr"></div>
+                        <div class="buttonPrice">
+                            <a href="" class="buttonImgPrice premium buttonLearn buttonEscuro">Choose</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sectionOito">
+            <div class="container sectionPremium">
+                <div class="titulosUm">
+                    <h1 class="h1Um">Premium</h1>
+                    <h3 class="h3Um">Even more features available</h3>
+                </div>
+                <div class="conteudoOito">
+                    <div class="divImgOito">
+                        <a href=""><img src="assets/image/complements/livros.png" alt=""></a>
+                    </div>
+                    <div class="divTextoOito">
+                        <div class="divConteudoTextoOito">
+                            <div class="divInternoOito">
+                                <div class="imgCheck">
+                                    <img src="assets/image/icons/check.png" alt="">
+                                </div>
+                                <div class="textoConteudoOito">
+                                    <h1 class="h1SectionOito">First Feature</h1>
+                                    <div><p class="pConteudoOito">Praesent</p></div>
+                                    <div><p class="pConteudoOito">- FEATURE ONE</p></div>
+                                    <div><p class="pConteudoOito">- FEATURE TWO</p></div>
+                                    <div><p class="pConteudoOito">- FEATURE THREE</p></div>
+                                </div>
+                            </div>
+                            <div class="divInternoOito">
+                                <div class="imgCheck">
+                                    <img src="assets/image/icons/check.png" alt="">
+                                </div>
+                                <div class="textoConteudoOito">
+                                    <h1 class="h1SectionOito">Second Feature</h1>
+                                    <p class="pConteudoOito">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                            <div class="divInternoOito">
+                                <div class="imgCheck">
+                                    <img src="assets/image/icons/check.png" alt="">
+                                </div>
+                                <div class="textoConteudoOito">
+                                    <h1 class="h1SectionOito">Third  Feature</h1>
+                                    <p class="pConteudoOito">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="linhaOito">
+                </div>
+                <div class="buttonOurProjects">
+                    <a href="" class="buttonImg buttonLearn">Get in touch</a>
+                </div>
+            </div>
+        </section>
+        <section class="sectionNove">
+            <div class="container sectionSomeFacts">
+                <div class="titulosQuatro">
+                    <h1 class="h1Quatro">Some Facts</h1>
+                    <h3 class="h3Quatro">About our work</h3>
+                </div>
+                <div class="conteudoNove">
+                    <div class="textoSectionNove">
+                        <h1 class="h1Nove">1000</h1>
+                        <div class="divLinhaNove"></div>
+                        <h3 class="h3Nove">Design projects released</h3>
+                        <p class="pNove">
+                            Praesent metus urna, feugiat a placerat vel, elementum at leo.
+                        </p>
+                    </div>
+                    <div class="textoSectionNove">
+                        <h1 class="h1Nove">900</h1>
+                        <div class="divLinhaNove"></div>
+                        <h3 class="h3Nove">Photos</h3>
+                        <p class="pNove">
+                            Praesent metus urna, feugiat a placerat vel, elementum at leo.
+                        </p>
+                    </div>
+                    <div class="textoSectionNove">
+                        <h1 class="h1Nove">500</h1>
+                        <div class="divLinhaNove"></div>
+                        <h3 class="h3Nove">Marketing ideas</h3>
+                        <p class="pNove">
+                            Praesent metus urna, feugiat a placerat vel, elementum at leo.
+                        </p>
+                    </div>
+                    <div class="textoSectionNove">
+                        <h1 class="h1Nove">100</h1>
+                        <div class="divLinhaNove"></div>
+                        <h3 class="h3Nove">Exhibitions</h3>
+                        <p class="pNove">
+                            Praesent metus urna, feugiat a placerat vel, elementum at leo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <section class="sectionDez">
+        <div class="container divTellAboutUs">
+            <div class="tituloRedes">
+                    <a href=""><img class="imgTellAbout imgShared" src="assets/image/icons/share.png" alt=""></a>
+                    <p class="pTellAbout">Tell about us:</p>
+            </div>
+            <div class="iconesRedes">
+                <div class="redes">
+                    <a href=""><img class="imgTellAbout" src="assets/image/icons/colorido/twitter.png" alt=""></a>
+                    <p class="numberTellAbout">152</p>
+                </div>
+                <div class="redes">
+                    <a href=""><img class="imgTellAbout" src="assets/image/icons/colorido/linkedin.png" alt=""></a>
+                    <p class="numberTellAbout">31</p>
+                </div>
+                <div class="redes">
+                    <a href=""><img class="imgTellAbout" src="assets/image/icons/colorido/facebook.png" alt=""></a>
+                    <p class="numberTellAbout">165</p>
+                </div>
+                <div class="redes">
+                    <a href=""><img class="imgTellAbout" src="assets/image/icons/colorido/google-plus.png" alt=""></a>
+                    <p class="numberTellAbout">22</p>
+                </div>
+                <div class="redes">
+                    <a href=""><img class="imgTellAbout" src="assets/image/icons/colorido/pinterest.png" alt=""></a>
+                    <p class="numberTellAbout">165</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sectionOnze">
+        <div class="containerFino divContactUs">
+            <div class="titulosUm">
+                <h1 class="h1Um">Contact us</h1>
+                <h3 class="h3Um">Our agency located in melbourne, Australia</h3>
+            </div>
+            <div>
+                <form action="" method="GET">
+                    <input class="inputName inputGeral" type="text" name="name" placeholder="NAME">
+                    <input class="inputEmail inputGeral" type="email" name="email" placeholder="EMAIL">
+                    <input class="inputSubject inputGeral" type="text" name="subject" placeholder="SUBJECT">
+                    <input class="inputMessage inputGeral" type="text" name="message" placeholder="MESSAGE">
+                    <input class="buttonImg buttonLearn inputButton inputSend" type="submit" value="Send message">
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="sectionDoze">
+        <div class="divMap">
+            <div class="conteudoMap">
+                <div class="divConteudoMap">
+                    <img class="iconMap" src="assets/image/icons/preto/1.png" alt="">
+                    <p class="pMap">PO Box 16122 Collins Street West Victoria 8007 Australia</p>
+                </div>
+                <div class="divConteudoMap">
+                    <img class="iconMap" src="assets/image/icons/preto/2.png" alt="">
+                    <p class="pMap">121 King Street, Melbourne Victoria 3000 Australia</p>
+                </div>
+                <div class="divConteudoMap">
+                    <img class="iconMap" src="assets/image/icons/preto/3.png" alt="">
+                    <p class="pMap">+00 0 1234 5678</p>
+                </div>
+                <div class="divConteudoMap">
+                    <img class="iconMap" src="assets/image/icons/preto/4.png" alt="">
+                    <p class="pMap">bukindesign@gmail.com</p>
+                </div>
+                <div class="divConteudoMap">
+                    <img class="iconMap" src="assets/image/icons/preto/5.png" alt="">
+                    <p class="pMap">www.envato.com</p>
+                </div>
+            </div>
+            <div class="mapMobile">
+                <img class="imgMapMobile" src="assets/image/complements/map2.png" alt="">
+            </div>
+        </div>
+
+    </section>
+    </main>
+    
+
+    <footer class="sectionFooter">
+        <div class="container divFooter">            
+            <a class="aSeta" href=""><img class="imgSeta" src="assets/image/icons/seta.png" alt="Telefone"></a>
+            <div class="div1">
+                <div class="svgFooter">
+                    <div class="iconTwiter">
+                        <svg enable-background="new 0 0 112.197 112.197" version="1.1" viewBox="0 0 112.197 112.197" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="56.099" cy="56.098" r="56.098" fill="#55ACEE"/>
+                                <path d="m90.461 40.316c-2.404 1.066-4.99 1.787-7.702 2.109 2.769-1.659 4.894-4.284 5.897-7.417-2.591 1.537-5.462 2.652-8.515 3.253-2.446-2.605-5.931-4.233-9.79-4.233-7.404 0-13.409 6.005-13.409 13.409 0 1.051 0.119 2.074 0.349 3.056-11.144-0.559-21.025-5.897-27.639-14.012-1.154 1.98-1.816 4.285-1.816 6.742 0 4.651 2.369 8.757 5.965 11.161-2.197-0.069-4.266-0.672-6.073-1.679-1e-3 0.057-1e-3 0.114-1e-3 0.17 0 6.497 4.624 11.916 10.757 13.147-1.124 0.308-2.311 0.471-3.532 0.471-0.866 0-1.705-0.083-2.523-0.239 1.706 5.326 6.657 9.203 12.526 9.312-4.59 3.597-10.371 5.74-16.655 5.74-1.08 0-2.15-0.063-3.197-0.188 5.931 3.806 12.981 6.025 20.553 6.025 24.664 0 38.152-20.432 38.152-38.153 0-0.581-0.013-1.16-0.039-1.734 2.622-1.89 4.895-4.251 6.692-6.94z" fill="#F1F2F2"/>
+                        </svg>
+                    </div>
+                    <div class="iconFacebook">
+                        <svg enable-background="new 0 0 112.196 112.196" version="1.1" viewBox="0 0 112.196 112.196" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="56.098" cy="56.098" r="56.098" fill="#3B5998"/>
+                            <path d="M70.201,58.294h-10.01v36.672H45.025V58.294h-7.213V45.406h7.213v-8.34   c0-5.964,2.833-15.303,15.301-15.303L71.56,21.81v12.51h-8.151c-1.337,0-3.217,0.668-3.217,3.513v7.585h11.334L70.201,58.294z" fill="#fff"/>
+                        </svg>                            
+                    </div>
+                    <div class="iconGoogle">
+                        <svg enable-background="new 0 0 112.196 112.196" version="1.1" viewBox="0 0 112.196 112.196" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="56.098" cy="56.097" r="56.098" fill="#DC4E41"/>
+                            <path d="m19.531 58.608c-0.199 9.652 6.449 18.863 15.594 21.867 8.614 2.894 19.205 0.729 24.937-6.648 4.185-5.169 5.136-12.06 4.683-18.498-7.377-0.066-14.754-0.044-22.12-0.033-0.012 2.628 0 5.246 0.011 7.874 4.417 0.122 8.835 0.066 13.252 0.155-1.115 3.821-3.655 7.377-7.51 8.757-7.443 3.28-16.94-1.005-19.282-8.813-2.827-7.477 1.801-16.5 9.442-18.675 4.738-1.667 9.619 0.21 13.673 2.673 2.054-1.922 3.976-3.976 5.864-6.052-4.606-3.854-10.525-6.217-16.61-5.698-11.939 0.142-22.387 11.164-21.934 23.091z" fill="#DC4E41"/>
+                            <path d="m79.102 48.668c-0.022 2.198-0.045 4.407-0.056 6.604-2.209 0.022-4.406 0.033-6.604 0.044v6.582c2.198 0.011 4.407 0.022 6.604 0.045 0.022 2.198 0.022 4.395 0.044 6.604 2.187 0 4.385-0.011 6.582 0 0.012-2.209 0.022-4.406 0.045-6.615 2.197-0.011 4.406-0.022 6.604-0.033v-6.582c-2.197-0.011-4.406-0.022-6.604-0.044-0.012-2.198-0.033-4.407-0.045-6.604-2.197-1e-3 -4.384-1e-3 -6.57-1e-3z" fill="#DC4E41"/>
+                            <g fill="#fff">
+                                <path d="m19.531 58.608c-0.453-11.927 9.994-22.949 21.933-23.092 6.085-0.519 12.005 1.844 16.61 5.698-1.889 2.077-3.811 4.13-5.864 6.052-4.054-2.463-8.935-4.34-13.673-2.673-7.642 2.176-12.27 11.199-9.442 18.675 2.342 7.808 11.839 12.093 19.282 8.813 3.854-1.38 6.395-4.936 7.51-8.757-4.417-0.088-8.835-0.033-13.252-0.155-0.011-2.628-0.022-5.246-0.011-7.874 7.366-0.011 14.743-0.033 22.12 0.033 0.453 6.439-0.497 13.33-4.683 18.498-5.732 7.377-16.322 9.542-24.937 6.648-9.143-3.003-15.792-12.214-15.593-21.866z"/>
+                                <path d="m79.102 48.668h6.57c0.012 2.198 0.033 4.407 0.045 6.604 2.197 0.022 4.406 0.033 6.604 0.044v6.582c-2.197 0.011-4.406 0.022-6.604 0.033-0.022 2.209-0.033 4.406-0.045 6.615-2.197-0.011-4.396 0-6.582 0-0.021-2.209-0.021-4.406-0.044-6.604-2.197-0.023-4.406-0.033-6.604-0.045v-6.582c2.198-0.011 4.396-0.022 6.604-0.044 0.011-2.196 0.033-4.405 0.056-6.603z"/>
+                            </g>
+                    </svg>
+                    
+                    </div>
+                    <div class="iconLinkedin">
+                        <svg enable-background="new 0 0 112.196 112.196" version="1.1" viewBox="0 0 112.196 112.196" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="56.098" cy="56.097" r="56.098" fill="#007AB9"/>
+                                <path d="m89.616 60.611v23.128h-13.409v-21.578c0-5.418-1.936-9.118-6.791-9.118-3.705 0-5.906 2.491-6.878 4.903-0.353 0.862-0.444 2.059-0.444 3.268v22.524h-13.41s0.18-36.546 0-40.329h13.411v5.715c-0.027 0.045-0.065 0.089-0.089 0.132h0.089v-0.132c1.782-2.742 4.96-6.662 12.085-6.662 8.822 0 15.436 5.764 15.436 18.149zm-54.96-36.642c-4.587 0-7.588 3.011-7.588 6.967 0 3.872 2.914 6.97 7.412 6.97h0.087c4.677 0 7.585-3.098 7.585-6.97-0.089-3.956-2.908-6.967-7.496-6.967zm-6.791 59.77h13.405v-40.33h-13.405v40.33z" fill="#F1F2F2"/>
+                        </svg>                        
+                    </div>
+                    <div class="iconPinterest">
+                        <svg enable-background="new 0 0 112.198 112.198" version="1.1" viewBox="0 0 112.198 112.198" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="56.099" cy="56.1" r="56.098" fill="#CB2027"/>
+                                <path d="m60.627 75.122c-4.241-0.328-6.023-2.431-9.349-4.45-1.828 9.591-4.062 18.785-10.679 23.588-2.045-14.496 2.998-25.384 5.34-36.941-3.992-6.72 0.48-20.246 8.9-16.913 10.363 4.098-8.972 24.987 4.008 27.596 13.551 2.724 19.083-23.513 10.679-32.047-12.142-12.321-35.343-0.28-32.49 17.358 0.695 4.312 5.151 5.621 1.78 11.571-7.771-1.721-10.089-7.85-9.791-16.021 0.481-13.375 12.018-22.74 23.59-24.036 14.635-1.638 28.371 5.374 30.267 19.14 2.133 15.537-6.607 32.363-22.255 31.155z" fill="#F1F2F2"/>
+                        </svg>                        
+                    </div>
+                    <div class="iconTumblr">
+                        <svg enable-background="new 0 0 112.197 112.197" version="1.1" viewBox="0 0 112.197 112.197" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="56.099" cy="56.098" r="56.098" fill="#395976"/>
+                                <path d="m58.178 38.032v-15.066h-9.725c-0.219 0.55-0.327 1.221-0.327 1.891-0.102 0.327-0.222 0.564-0.222 0.89-0.997 5.587-3.899 9.484-8.814 11.613-1.459 0.673-2.798 0.775-4.242 0.673v12.146h7.146c0.116 17.092 0.116 25.903 0.116 26.351v1.013c0.897 7.457 4.796 11.926 11.717 13.606 2.785 0.772 5.794 1.116 8.814 1.116 3.9-0.12 7.696-0.789 11.493-2.007v-14.294c-2.218 0.67-4.241 1.234-6.026 1.786-3.456 1.01-6.358 0.341-8.713-1.891-0.222-0.341-0.551-0.79-0.667-1.237-0.329-1.784-0.538-3.678-0.538-5.461v-18.983h15.497v-12.146h-15.509z" fill="#F1F2F2"/>
+                        </svg>                        
+                    </div>
+                    <div class="iconFlickr">
+                        <svg enable-background="new 0 0 112.196 112.196" version="1.1" viewBox="0 0 112.196 112.196" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="56.098" cy="56.098" r="56.098" fill="#FF6A22"/>
+                                <path d="m16.707 68.833c-0.027 0.182-0.157 0.312-0.326 0.312s-0.299-0.13-0.325-0.316l-0.593-4.438 0.593-4.512c0.025-0.188 0.155-0.318 0.325-0.318 0.168 0 0.298 0.13 0.326 0.318l0.706 4.517-0.706 4.437zm3.021 2.696c-0.028 0.193-0.168 0.328-0.341 0.328-0.168 0-0.315-0.135-0.338-0.328l-0.798-7.139 0.798-7.299c0.024-0.188 0.17-0.328 0.338-0.328 0.173 0 0.313 0.137 0.341 0.328l0.908 7.299-0.908 7.139zm3.26 1.209c-0.023 0.232-0.197 0.397-0.406 0.397-0.216 0-0.387-0.165-0.408-0.397l-0.757-8.342 0.757-8.659c0.019-0.235 0.192-0.403 0.408-0.403 0.209 0 0.382 0.168 0.406 0.403l0.859 8.659-0.859 8.342zm3.292 0.265c-0.024 0.266-0.232 0.467-0.479 0.467-0.253 0-0.46-0.201-0.481-0.467l-0.715-8.607 0.715-8.897c0.021-0.268 0.228-0.469 0.481-0.469 0.247 0 0.455 0.201 0.479 0.469l0.811 8.897-0.811 8.607zm3.31 0.069c-0.017 0.309-0.258 0.538-0.543 0.538-0.294 0-0.527-0.229-0.547-0.538l-0.676-8.677 0.676-8.254c0.021-0.307 0.253-0.536 0.547-0.536 0.29 0 0.526 0.229 0.543 0.532l0.766 8.258-0.766 8.677zm3.342 5e-3v-5e-3c-0.02 0.342-0.291 0.612-0.617 0.612-0.327 0-0.598-0.271-0.617-0.607l-0.631-8.677 0.631-13.429c0.019-0.342 0.29-0.612 0.617-0.612s0.598 0.271 0.617 0.607l0.715 13.434-0.715 8.677zm3.317-5e-3v-5e-3c-0.02 0.378-0.319 0.679-0.689 0.679-0.363 0-0.663-0.301-0.681-0.679l-0.596-8.621 0.596-16.501c0.018-0.378 0.318-0.677 0.681-0.677 0.37 0 0.669 0.299 0.689 0.677l0.671 16.501-0.671 8.626zm3.441-0.133v-5e-3c-0.015 0.421-0.346 0.748-0.753 0.748s-0.738-0.327-0.753-0.743l-0.553-8.533s0.553-17.876 0.553-17.881c0.016-0.416 0.346-0.749 0.753-0.749s0.739 0.333 0.753 0.749l0.625 17.881-0.625 8.533zm3.421-0.057c-0.016 0.458-0.375 0.817-0.822 0.817-0.448 0-0.807-0.359-0.823-0.813l-0.516-8.482 0.516-18.478c0.016-0.46 0.375-0.818 0.823-0.818 0.447 0 0.807 0.358 0.822 0.818l0.573 18.478-0.573 8.478zm3.443-0.075v-5e-3c-0.016 0.495-0.403 0.888-0.894 0.888-0.484 0-0.879-0.393-0.888-0.883l-0.474-8.401 0.469-18.006c0.014-0.502 0.408-0.89 0.893-0.89 0.491 0 0.878 0.388 0.894 0.89l0.532 18.006-0.532 8.401zm3.471-0.05v-7e-3c-8e-3 0.539-0.434 0.954-0.96 0.954-0.53 0-0.95-0.415-0.966-0.947l-0.428-8.352 0.429-17.347c0.016-0.538 0.436-0.959 0.966-0.959 0.526 0 0.952 0.421 0.96 0.959l0.485 17.352-0.486 8.347zm3.541-0.881l-0.043 0.818c-5e-3 0.285-0.125 0.543-0.308 0.729-0.188 0.183-0.446 0.3-0.719 0.3-0.318 0-0.598-0.146-0.79-0.376-0.142-0.167-0.23-0.383-0.24-0.61-3e-3 -0.01-3e-3 -0.023-3e-3 -0.037 0 0-0.395-8.286-0.395-8.3l0.39-20.443 5e-3 -0.196c3e-3 -0.358 0.193-0.677 0.477-0.86 0.159-0.106 0.347-0.168 0.557-0.168 0.206 0 0.401 0.064 0.564 0.177 0.277 0.185 0.458 0.496 0.463 0.852l0.434 20.648-0.392 7.466zm3.441 0.711v-0.01c-7e-3 0.604-0.502 1.096-1.1 1.096-0.6 0-1.094-0.492-1.1-1.091l-0.227-4.03-0.223-4.138 0.45-22.406v-0.113c1e-3 -0.34 0.161-0.644 0.408-0.849 0.189-0.155 0.432-0.249 0.692-0.249 0.207 0 0.399 0.057 0.563 0.153 0.313 0.196 0.532 0.543 0.542 0.94l0.487 22.523-0.492 8.174zm29.733 1.108h-27.712c-0.598-0.061-1.071-0.537-1.081-1.15v-31.724c0.01-0.584 0.211-0.885 0.963-1.174 1.941-0.752 4.139-1.196 6.398-1.196 9.215 0 16.766 7.069 17.567 16.074 1.186-0.495 2.496-0.777 3.865-0.777 5.518 0 9.992 4.476 9.992 9.998 0 5.521-4.474 9.949-9.992 9.949z" fill="#F1F2F2"/>
+                        </svg>
+                                            
+                    </div>
+                </div>
+                <div>
+                    <h3 class="h3Footer">PedroPASimões©2021</h3>
+                </div>
+            </div>
+            <div class="div2">
+                <p class="pFooter">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim quam eius provident asperiores laudantium. Quia rerum assumenda ab incidunt rem repellat voluptatum vel commodi, voluptates maiores fugit obcaecati amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi laudantium itaque numquam maxime. Eius ipsa itaque quis quidem reiciendis mollitia? Quos perferendis nam aliquam nostrum nulla adipisci ab explicabo totam!Lorem</p>
+            </div>
+            <div class="div3">
+                <h2 class="h2Footer">Email to subscribe</h2>
+                <div class="linhaFooter"></div>
+                <div class="buttonOurProjects">
+                    <a href="" class="buttonImg buttonLearn inputButton">Subscribe</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script type="text/javascript" src="assets/js/hamburguer.js"></script>
+</body>
+</html>
